@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.min.css">
+
+    <!-- Bootstarp javascript -->
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/js/bootstrap.min.js">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- local css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Job Application Form</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="nav-section">
+            <div class="pos-f-t">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class=" p-4">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col"></div>
+                                <div class="col-sm-12 col-lg-6 collapse-style">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-lg-4">
+                                            <a href="#personal-info">Personal Info.</a>
+                                            <a href="#Education">Education</a>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-4">
+                                            <a href="#Accomplishments">Accomplishments</a>
+                                            <a href="#Hobby">Hobby</a>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-4">
+                                            <a href="#Submit">Submit</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Navbar -->
+                <nav class="navbar navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h1 class="header-text">Job Application Form</h1>
+                            </div>
+                            <div class="col-sm-12">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                    data-target="#navbarToggleExternalContent"
+                                    aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span>Quick-Navigations!</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+
+
+            <!-- Progress Bar -->
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" id="myBar" role="progressbar"
+                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+
+
+        <!-- Personal Info -->
+        <div class="container-fuid" id="personal-info">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-sm-12 col-lg-8">
+                    <form>
+
+                        <div class="form-group row">
+                            <label for="name" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">Name:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" placeholder="Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">Email:</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" placeholder="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="tel" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">Ph Number:</label>
+                            <div class="col-sm-10">
+                                <input type="tel" class="form-control" name="phone" pattern="[0-9]{10}"
+                                    placeholder="10 digits only" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="Name" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">Github Profile:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" placeholder="Github Username Only" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="Name" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">Linkedin Profile:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" placeholder="Linkedin Username Only">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="Name" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">Address:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" placeholder="Current Address">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="Pin" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">Pin:</label>
+                            <div class="col-sm-10">
+                                <input type="tel" class="form-control" placeholder="Current Address" pattern="[0-9]{5}">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+
+        <hr>
+
+
+        <!-- Education -->
+        <div class="container-fluid education" id="Education">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-sm-12 col-lg-8">
+                    <div class="form-group row">
+                        <label for="School" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">School Name:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="where you did your 12th"> </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="School" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">Percentage Obtained:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Percentage Obtained In 12th" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="College" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">College Name:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="College Name"> </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="College" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">Grades:</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control" placeholder="In CGPA" required> </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+
+        <hr>
+
+
+        <!-- Accomplishments -->
+        <div class="container-fluid accomplish" id="Accomplishments">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-sm-12 col-lg-8">
+                    <div class="form-group row">
+                        <label for="Competetion" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">International Competetion:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Competetion Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="Competetion" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">Upload Related Certificat:</label>
+                        <div class="col-sm-10">
+                            <form action="/action_page.php">
+                                <input type="file" name="pic" accept="image/*">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="Hackathons" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">Hackathon's Name:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Hackathon Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="Hackathons" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">Upload Related Certificate:</label>
+                        <div class="col-sm-10">
+                            <form action="/action_page.php">
+                                <input type="file" name="pic" accept="image/*">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+
+        <hr>
+
+
+        <!-- Hobby -->
+        <div class="container-fluid hobby" id="Hobby">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-sm12 col-lg-8">
+                    <div class="form-group row">
+                        <label for="Hobbies" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">Hobbies:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Hobbies">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="Trophies" class="col-sm-4 col-lg-2 col-lg-2 col-form-label">{If Any}Trophies:</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="Trophy Name and Year">
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+
+        <hr>
+
+
+        <!-- Submit -->
+
+        <div class="container-fluid submit-class" id="Submit">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#submit-modal">
+                Submit
+            </button>
+
+        </div>
+
+
+
+        <!-- footer -->
+        <footer class="footer bg-dark">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <img src="./images/logo-original.png" class="img-fluid footer-img">
+                    </div>
+                    <div class="col-sm-12 col-lg-6 footer-links">
+                        <h4>CONNECT WITH US</h4>
+                        <a href="#"><i class="fa fa-envelope-square fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-tty fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="submit-modal" tabindex="-1" role="dialog" aria-labelledby="submitModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="submitModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p><strong>Alert!</strong> You won't be allowed to make any further changes.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-outline-danger" data-dismiss="modal">Proceed</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Local Script -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
