@@ -13,7 +13,7 @@ div.nav-section {
     z-index: 1;
 }
 
-div.collapse-style a {
+span {
     padding: 20px;
     font-size: 30px;
     display: grid;
@@ -22,7 +22,7 @@ div.collapse-style a {
     color: antiquewhite;
 }
 
-div.collapse-style a:hover {
+span:hover {
    color: #FC766AFF;
 }
 
